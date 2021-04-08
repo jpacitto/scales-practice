@@ -1,0 +1,9 @@
+.shuffle-button {
+    position: absolute;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    background-color: blue;
+    right: 30px;
+    top: 30px;
+}

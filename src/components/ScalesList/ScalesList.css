@@ -1,0 +1,30 @@
+.scalesList-wrapper {
+    width: 275px;
+    height: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 5px solid black;
+}
+
+.scales-list {
+    width: 90%;
+}
+
+.scale-selected {
+    background-color: blue;
+    color: white;
+}
+
+.scale-wrapper {
+    margin: 10px 0px 10px 0px;
+    padding: 5px 0px 5px 0px;
+    border-radius: 10px;
+}
+
+.scale {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+}

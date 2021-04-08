@@ -1,0 +1,23 @@
+const scalesList = ["Major",
+                    "Minor",
+                    "Melodic Minor",
+                    "Harmonic Minor",
+                    "Major Pentatonic",
+                    "Minor Pentatonic",
+                    "Blues",
+                    "Rock n' Roll",
+                    "Ionian",
+                    "Dorian",
+                    "Phrygian",
+                    "Lydian",
+                    "Mixolydian",
+                    "Aeolian",
+                    "Locrian",
+                    "Doran Bebop",
+                    "Mixolydian Bebop",
+                    "Half Whole Diminished",
+                    "Whole Half Diminished",
+                    "Gypsy Major",
+                    "Gypsy Minor"];
+
+export default scalesList;

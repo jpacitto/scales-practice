@@ -1,0 +1,98 @@
+.mainPage-wrapper {
+    height: 100vh;
+    width: 100%;
+}
+
+.scale-title {
+    text-align: center;
+}
+
+.note-selected-wrapper {
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 60px;
+    border: 10px solid black;
+}
+
+.note-selected {
+    position: relative;
+    font-size: 10em;
+    font-weight: 700;
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+
+.grid-container {
+    position: relative;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px;
+    width: 1200px;
+}
+
+.grid-item {
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    margin: 10px 10px 10px 10px;
+    display: flex;
+}
+
+.note {
+    position: relative;
+    background-color: black;
+    border-radius: 10px;
+    font-size: 2em;
+    margin: 0 auto;
+    height: 80px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notes-selected {
+    position: relative;
+    height: 50px;
+    font-size: 2em;
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}
+
+.selected {
+    border-top: 2px solid grey;
+}
+
+.right {
+    background-color: green;
+}
+
+.wrong {
+    background-color: red;
+}
+
+.answer {
+    color: white;
+    padding: 5px 30px 5px 30px;
+    border-radius: 15px;
+}
+
+.hide-answer {
+    visibility: hidden;
+}
+
+.interval-display {
+    position: absolute;
+    top: 200px;
+    left: 350px;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: 600;
+}
